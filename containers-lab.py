@@ -76,12 +76,21 @@ for idx, student in enumerate(students):
 
 for item in cohort:
     print(item)
-    
+
 
 # Exercise 7
 # Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over the awesome_students list, printing out each string.
+
+awesome_students = [f"{student} is awesome!" for student in students]
+
+for awesome_student in awesome_students:
+    print(awesome_student)
+
+
 # Exercise 8
 # Use a for loop to iterate over a list comprehension that filters the foods tuple to only include food strings that contains the letter a.
 # Within the for loop, print each food string.
+
+[print(food) for food in foods if food.count('a')]
