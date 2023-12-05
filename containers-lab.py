@@ -31,6 +31,14 @@ for food in foods[-2:]:
 # Print a string with this format:
 # "I was born in city, state - population of population"
 
+home_town = {
+    'city': 'Windsor',
+    'state': 'Ontario',
+    'population': 400000
+}
+
+print(f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']:,}")
+# (f"{num:,}") adds comma separator for thousands
 
 
 # Exercise 5
