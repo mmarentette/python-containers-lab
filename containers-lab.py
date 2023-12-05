@@ -66,7 +66,17 @@ for key, val in home_town.items():
 #  }
 # Iterate over the cohort list, printing out each item (it's not necessary to format the dictionaries).
 
+cohort = []
 
+for idx, student in enumerate(students):
+    cohort.append({
+        'student': student,
+        'fav_food': foods[idx]
+    })
+
+for item in cohort:
+    print(item)
+    
 
 # Exercise 7
 # Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
