@@ -12,6 +12,9 @@ print(students[-1]) # => Melissa
 # Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 # Use a for loop to print out the string "[food goes here] is a good food".
 
+foods = ('pizza', 'chicken noodle soup', 'grilled cheese', 'pad thai')
+for food in foods:
+    print(f"{food.capitalize()} is a good food")
 
 
 # Exercise 3
