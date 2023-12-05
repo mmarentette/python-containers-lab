@@ -3,6 +3,9 @@
 # Print out the second student's name.
 # Print out the last student's name.
 
+students = ['Brad', 'Dennelle', 'Ed', 'Melissa']
+print(students[1]) # => Dennelle
+print(students[-1]) # => Melissa
 
 
 # Exercise 2
